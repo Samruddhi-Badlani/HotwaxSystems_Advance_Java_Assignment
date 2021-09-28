@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+*{
+	margin:0;
+	padding:0;
+}
+
+#head{
+	color:white;
+}
+
+.container {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: black;
+	font-weight: bold;
+	font-size: 2rem;
+}
+.container ::before{
+	content: '';
+	background: url('../img/background1.jpg') no-repeat center center/cover;
+	position: absolute;
+	opacity: 0.3;
+	top: 0px;
+	left: 0px;
+	width: 100vw;
+	height: 100vh;
+	z-index: -1;
+}
+
+#form-section{
+	z-index:1;
+	background:black;
+	color:white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width:90vw;
+	height:90vh;
+}
+#form-head{
+	margin:10px;
+	padding:5px;
+}
+.my-inputs{
+	backround : white;
+	display:block;
+	padding:10px;
+	margin:10px;
+	color:black;
+	text-align:center;
+}
+#submitForm{
+	
+	background:black;
+	color:white;
+	width:94%;
+}
+#submitForm:hover{
+	cursor:pointer;
+	background:green;
+	width:94%;
+}
