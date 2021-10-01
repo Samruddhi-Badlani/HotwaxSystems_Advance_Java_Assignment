@@ -11,7 +11,7 @@
 <div class="container">
 	
 		<div id="form-section">
-			<form id="myForm" method="post" action=RegisterServlet>
+			<form id="myForm" method="post" action=RegistrationServlet>
 				<div id="form-head">Register !!</div>
 				<input class="my-inputs" type="text" name=firstName placeholder="First Name" required>
 				<input class="my-inputs" type="text" name=lastName placeholder="Last Name" required>
